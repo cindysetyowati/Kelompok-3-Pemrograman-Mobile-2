@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/itemAvatar"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="16dp"
+        android:contentDescription="Avatar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:textColor="#000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@id/itemAvatar"
+        app:layout_constraintTop_toTopOf="@id/itemAvatar"
+        tools:text="Name"/>
+
+
+    <TextView
+        android:id="@+id/itemEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="#7E7E7E"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/itemName"
+        app:layout_constraintTop_toBottomOf="@+id/itemName"
+        tools:text="Email"/>
+
+    <TextView
+        android:id="@+id/itemAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="#7E7E7E"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/itemEmail"
+        app:layout_constraintTop_toBottomOf="@+id/itemEmail"
+        tools:text="Alamat"/>
+
+    <TextView
+        android:id="@+id/itemTotalIuranBulanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="#7E7E7E"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/itemAlamat"
+        app:layout_constraintTop_toBottomOf="@+id/itemAlamat"
+        tools:text="Total Iuran Bulanan"/>
+
+    <TextView
+        android:id="@+id/itemTotalIuranIndividu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="#7E7E7E"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/itemTotalIuranBulanan"
+        app:layout_constraintTop_toBottomOf="@+id/itemTotalIuranBulanan"
+        tools:text="Total Iuran Individu"/>
+
+    <TextView
+        android:id="@+id/itemTotalIuranAkhir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="#7E7E7E"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/itemTotalIuranIndividu"
+        app:layout_constraintTop_toBottomOf="@+id/itemTotalIuranIndividu"
+        tools:text="Total Iuran Akhir"/>
+
+    <TextView
+        android:id="@+id/itemPengeluaranIuran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="#7E7E7E"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/itemTotalIuranAkhir"
+        app:layout_constraintTop_toBottomOf="@+id/itemTotalIuranAkhir"
+        tools:text="Pengeluaran Iuran"/>
+
+    <TextView
+        android:id="@+id/itemPemanfaatanIuran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="#7E7E7E"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/itemPengeluaranIuran"
+        app:layout_constraintTop_toBottomOf="@+id/itemPengeluaranIuran"
+        tools:text="Pemanfaatan Iuran"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
