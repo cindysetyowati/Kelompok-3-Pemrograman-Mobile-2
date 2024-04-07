@@ -1,0 +1,27 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable icon_avatar
+id itemAlamat
+id itemAvatar
+id itemEmail
+id itemName
+id itemPemanfaatanIuran
+id itemPengeluaranIuran
+id itemTotalIuranAkhir
+id itemTotalIuranBulanan
+id itemTotalIuranIndividu
+id main
+id rv_users
+layout activity_main
+layout item_list_user
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.PertemuanLima
+style Theme.PertemuanLima
+xml backup_rules
+xml data_extraction_rules
